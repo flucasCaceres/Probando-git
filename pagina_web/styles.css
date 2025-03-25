@@ -1,0 +1,33 @@
+
+*{
+    font-family: 'Inter', sans-serif;
+    color: aliceblue;
+    background-color: rgba(0, 0, 10, 1);
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+footer{ 
+    text-align: end;
+}
+
+.perfil-button{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 3px solid rgba(0, 0, 0, 0.09);
+}
